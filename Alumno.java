@@ -45,6 +45,19 @@ public class Alumno {
     public void imprimeDetalles() {
         System.out.println(nombre + " (" + numeroMatricula + ") - " + edad + " años");
     }
+    public String getNombreAlumno(){
+        String nombreAlumno = nombre;
+        return nombreAlumno;
+    }
+    public String getNumeroMatriculaAlumno(){
+        String numeroMatriculaAlumno = numeroMatricula;
+        return numeroMatriculaAlumno;
+    }
+    public int getEdadAlumno(){
+        int edadAlumno = edad;
+        return edadAlumno;
+    }
+    
     
     /**
      * Devuelve el nombre de usuario que el alumno debe configurar
